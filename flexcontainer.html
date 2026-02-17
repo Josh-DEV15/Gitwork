@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container</title>
+    <style>
+        .box {
+            display: flex;
+            min-height: 500px;
+            min-width: 500px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        .container div,
+        .content div {
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 5px;
+        }
+        .row_1 {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flex Container</h1>
+    <div class="box">
+        <div class="container">
+            <div class="row_1">Web design</div>
+            <div>Graphic Design</div>
+            <div>UI/UX</div>
+            <div>Aptech</div>
+        </div>
+        <div class="content">
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+        </div>
+    </div>
+</body>
+
+</html>

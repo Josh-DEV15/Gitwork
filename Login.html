@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: lightskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px 20px;
+            text-align: right
+        }
+
+        header a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+        }
+
+        h2 {
+            color: navy;
+            font-size: 2em;
+            text-align: left;
+
+        }
+
+        .button {
+            padding: 15px 20px;
+            background-color: blue;
+            border-radius: 15px;
+        }
+
+        .button2 {
+            color: purple;
+            background-color: antiquewhite;
+            padding: 10px 15px;
+            border-radius: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            background-color: blue;
+            padding: 60px;
+            margin: auto;
+            width: 500px;
+            border-radius: 15px;
+            min-height: 400px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        form h2 {
+            color: white;
+            text-align: center;
+        }
+
+        form input {
+            height: 40px;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        button {
+            width: 330px;
+            padding: 10px;
+            margin: auto;
+            border-radius: 15px;
+            color: white;
+            background-color: blue;
+        }
+
+        footer {
+            background-color: black;
+            padding: 70px 10px 0px 10px;
+        }
+
+        .footer-box {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        footer .box1 {
+            color: white;
+            padding: 20px;
+
+        }
+
+        footer .box1 h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        footer .box1 a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        footer .box1 p {
+            color: white;
+            text-align: left;
+        }
+
+        footer p {
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h2>LoanAptech</h2> <a href="#">Home</a>
+        <a href="#">Loans</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="button2">Login</a>
+        <a href="#" class="button">Sign up</a>
+    </header>
+    <div class="container">
+        <form>
+            <h2> Login </h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Login</button>
+        </form>
+        <footer>
+            <div class="footer-box">
+                <div class="box1">
+                    <h2 style="color: royalblue;">LoanAptech</h2>
+                    <p style="text-align: left;">Your trusted partner for fast,<br>
+                        transparent, and affordable loan<br>solutions.</p>
+                </div>
+                <div class="box1">
+                    <h2>Quick Links</h2>
+                    <a href="home.html">Home</a>
+                    <a href="products.html">Loan Products</a>
+                    <a href="apply.html">Apply Now</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div class="box1">
+                    <h2>Contact Us</h2>
+                    <a href="#faq">FAQ</a>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+                <div class="box1">
+                    <h2>Get in Touch</h2>
+                    <a href="mailto:support@loanaptech.com">support@loanaptech.com</a>
+                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                    <p>Mon-Fri: 9AM-6PM EST</p>
+                </div>
+            </div>
+            <p>&copy; 2025 LoanAptech. All rights reserved.</p>
+            <p>Licensed by relevant financial authorities</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        .card {
+            width: 45%;
+            display: inline-block;
+            background-color: blue;
+            vertical-align: top;
+            padding: 3px;
+            margin: 0 10px 10px 10px;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 3px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        .card h2 {
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        table {
+            width: 90%;
+                 border-radius: 15px;
+            margin-bottom: 20px;
+             border-collapse: separate;
+            border: 2px  greenyellow;
+            margin-left: 30px;
+            overflow: hidden;
+        }
+
+        tr {
+            border-radius: 10px;
+        }
+
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+
+        }
+ 
+        thead {
+            background-color: blue;
+        }
+
+        tbody tr {
+            background-color: green;
+        }
+
+        .main1 {
+            background-color: lime;
+        }
+
+        .form-container {
+            padding-top: 15px;
+            margin-left: 280px;
+        }
+
+        form input {
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+
+        button {
+            background: blue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+             margin-left: 330px;
+        }
+
+        button:hover {
+            background: yellowgreen;
+        }
+        h4 {
+            text-align: center;
+        }
+        .main2 {
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>OUR SERVICES
+    </h1>
+    <div class="card">
+        <img src="webdeisgn.avif" alt="logo">
+        <h2>Web Design</h2>
+        <p>Creating Responsive and modern websites for your businesses.</p>
+    </div>
+    <div class="card">
+        <img src="seq.jpg" alt="logo">
+        <h2>SEQ</h2>
+        <p>Optimize your website and improve your search engine ranking</p>
+    </div>
+    <div class="card">
+        <img src="marketing.webp" alt="logo">
+        <h2>Marketing</h2>
+        <p>Boost your online presence and reach more customers</p>
+    </div>
+    <div class="card">
+        <img src="customercare.png" alt="logo">
+        <h2>Support</h2>
+        <p>24/7 customer support to help you any time </p>
+    </div>
+    <h3>TEAM MEMBERS</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Role</td>
+                <td>Email</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>Frontend Developer</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr class="main1">
+                <td>Jane Smith</td>
+                <td>Backend Developer</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Micheal Lee</td>
+                <td>UI/UX Designer</td>
+                <td>micheal@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>CONTACT US</h4>
+    <div class="form-container">
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input class="main2" type="text" placeholder="Your Message" required><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+
+</html>

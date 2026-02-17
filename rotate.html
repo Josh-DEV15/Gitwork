@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 50px auto;
+            transition: transform 0.5s;
+            margin-bottom: 30px;
+        }
+
+        .clockwise {
+            transform: rotate(360deg);
+        }
+
+        .counterclockwise {
+            transform: rotate(-45deg);
+        }
+
+        .clockwise:hover,
+        .counterclockwise:hover {
+            transform: rotate(0deg);
+        }
+
+        .scale {
+            transform: scale(1);
+        }
+
+        .fire {
+            transform: scale(0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rotate Div example</h1>
+    <div>ADSE</div>
+    <div class="clockwise">Aptech</div>
+    <div class="counterclockwise">Aptech</div>
+    <div class="scale">Aptech</div>
+    <div class="fire">Aptech</div>
+</body>
+
+</html>

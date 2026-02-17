@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: aliceblue;
+            gap: 10px;
+            height: 300px;
+            gap: 20px;
+        }
+
+        .container div {
+            width: 100px;
+            text-align: center;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            line-height: 75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div style="align-self: flex-start;">2</div>
+        <div style="align-self: flex-end;">3</div>
+        <div style="flex-basis: 400px;">4</div>
+    </div>
+</body>
+
+</html>

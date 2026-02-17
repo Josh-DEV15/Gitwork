@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,  footer {
+            background-color: grey;
+            color: white;
+            padding: 10px;
+        }
+        header a , footer a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+        }
+        header a:hover, footer a:hover {
+            background-color: black;
+            color: white;
+        }
+        header .logout {
+            float: right;
+            color: red;
+            font-weight: bolder;
+        }
+        .container {
+            display: flex;
+        }
+        .left-bar , .right-bar {
+            background-color: gray;
+            width: 150px;
+            display: block;
+            padding:15px;
+            text-align: center;
+            min-height: 400px;
+        }
+        .left-bar a, .right-bar a {
+            text-decoration: none;
+            text-align: center;
+            margin: 8px;
+            display: block;
+        }
+        .left-bar a:hover, .right-bar a:hover {
+            background-color: black;
+            color: white;
+        }
+        .content {
+            flex: 1;
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 3px;
+            gap: 5px;
+        }
+        .card {
+            flex: 1 1 calc(33.33% - 20px);
+            background-color: white;
+            border-radius: 8px;
+        }
+        .card img {
+            width:100px;
+            border-radius: 3px;
+        }
+       .card h2 {
+        color: black;
+        font-size: 1.2em;
+        margin: 10px 0;
+        }
+        .card p {
+            font-size: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Logout</a>
+    </nav>
+   </header> 
+   <div class="container">
+    <div class="content">
+        <a href="#">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Friends</a>
+        <a href="#">Gallery</a>
+        <a href="#">Settings</a>
+        <a href="#">Help</a>
+        <a href="#">Support</a>
+    </div>
+    <div>
+
+    </div>
+   </div>
+</body>
+</html>

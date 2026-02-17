@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Container</title>
+    <style>
+        .box {
+            display: flex;
+            min-height: 500px;
+            min-width: 500px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        .contained {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+        .containment {
+               display: flex;
+            flex-direction: column;
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 10px;
+            width: 500px;
+            margin: 20px;
+        }
+
+        .container div,
+        .content div,
+        .contained div, .containment div{
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 5px;
+        }  
+        .row_1{
+            background-color: red;
+        }
+        .row_2 {
+            background-color: orange;
+        }
+        .row_3 {
+            background-color: yellow;
+        }
+        .row_4 {
+            background-color: green;
+        }
+        .row_5 {
+            background-color: blue;
+        }
+        .row_6 {
+            background-color: indigo;
+        }
+        .row_7 {
+            background-color: violet;
+        }
+        .row_8 {
+            background-color: red;
+        }
+        .row_9 {
+            background-color: orange;
+        }
+        .row_10 {
+            background-color: yellow;
+        }
+        .row_11 {
+            background-color: green;
+        }
+        .row_12 {
+            background-color: blue;
+        }
+        .row_13 {
+            background-color: indigo;
+        }
+        .row_14 {
+            background-color: violet;
+        }
+        .row_15 {
+            background-color: red;
+        }
+        .row_16 {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flex Container</h1>
+    <div class="box">
+        <div class="container">
+            <div class="row_1">Web design</div>
+            <div class="row_2">Graphic Design</div>
+            <div class="row_3">UI/UX</div>
+            <div class="row_4">Aptech</div>
+        </div>
+        <div class="content">
+            <div class="row_5">Monday</div>
+            <div class="row_6">Tuesday</div>
+            <div class="row_7">Wednesday</div>
+            <div class="row_8">Thursday</div>
+        </div>
+        <div class="contained">
+            <div class="row_9">Terminus</div>
+            <div class="row_10">Visual studio code</div>
+            <div class="row_11">Python</div>
+            <div class="row_12">Javascript</div>
+        </div>
+        <div class="containment">
+            <div class="row_13">Marginal</div>
+            <div class="row_14">Mutiny</div>
+            <div class="row_15">Marked</div>
+            <div class="row_16">Marquee</div>
+        </div>
+    </div>
+</body>
+
+</html>

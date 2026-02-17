@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            border: 1px solid black;
+            height: 150px;
+        }
+
+        .static {
+            width: 300px;
+            position: static;
+            right: 150px;
+            bottom: 100px;
+
+        }
+
+        .relative {
+            position: relative;
+            width: 300px;
+            top: 50px;
+            left: 50px;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Aptech</div>
+    <div class="box static"> Software </div>
+    <div class="box relative">Engineering</div>
+    <div class="box fixed">Idea Konsult</div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex grow</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: stretch;
+            background-color: aliceblue;
+            gap: 20px;
+            width: 200px;
+        }
+
+        .container div {
+            line-height: 75px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            border-radius: 5px; 
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="flex-shrink: 2">Aptech</div>
+        <div>Web </div>
+        <div>Design</div>
+    </div>
+</body>
+
+</html>
