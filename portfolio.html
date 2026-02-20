@@ -13,7 +13,7 @@
         }
 
         body {
-            background-color: brown;
+            background-color: black;
         }
 
         header {
@@ -160,8 +160,22 @@
             overflow: hidden;
         }
 
-        .skills {
+        .skills-html {
             background-color: royalblue;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .skills-css {
+            background-color: royalblue;
+            width: 90%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .skills-js {
+            background-color: royalblue;
+            width: 85%;
             height: 100%;
             border-radius: 15px;
         }
@@ -169,6 +183,32 @@
         .skills-list img {
             width: 25px;
             height: 25px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            background-color: white;
+            justify-content: space-around;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .frontend {
+            width: 20%;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 30px;
+            padding: 30px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .frontend img {
+            width: 50px;
+            height: 50px;
+            border-style: none;
         }
     </style>
 </head>
@@ -209,7 +249,7 @@
                 <span>90%</span>
             </div>
             <div class="skills-card">
-                <div class="skills"></div>
+                <div class="skills-html"></div>
             </div>
             <div class="skills-list">
                 <img src="css.jfif" alt="CSS logo">
@@ -217,7 +257,7 @@
                 <span>85%</span>
             </div>
             <div class="skills-card">
-                <div class="skills"></div>
+                <div class="skills-css"></div>
             </div>
             <div class="skills-list">
                 <img src="js.png" alt="Javasxcript logo">
@@ -225,7 +265,35 @@
                 <span>80%</span>
             </div>
             <div class="skills-card">
-                <div class="skills"></div>
+                <div class="skills-js"></div>
+            </div>
+        </div>
+    </section>
+    <section id="programs">
+        <div class="box">
+            <div class="frontend">
+                <img src="graduation.png" alt="Logo">
+                <h5>Frontend Masters-Advanced React</h5>
+                <div>Frontend masters</div>
+                <div>2023</div>
+            </div>
+            <div class="frontend">
+                <img src="cloud.png" alt="Logo">
+                <h5>AWS Certified Developer</h5>
+                <div>Amazon Web Services</div>
+                <div>2024</div>
+            </div>
+            <div class="frontend">
+                <img src="analytics.png" alt="Logo">
+                <h5>Google Analytics Certification</h5>
+                <div>Google</div>
+                <div>2022</div>
+            </div>
+            <div class="frontend">
+                <img src="mongo.jpg" alt="Logo">
+                <h5>MongoDB Basics</h5>
+                <div>MongoDB University</div>
+                <div>2023</div>
             </div>
         </div>
     </section>
